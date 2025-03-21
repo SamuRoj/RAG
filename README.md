@@ -15,7 +15,7 @@ This guide will show how to build a simple Q&A application over a text data sour
 pip install --quiet --upgrade langchain-text-splitters langchain-community langgraph
 ```
 
-- Create a langsmith account to inspect log out the results of the application, then import the following environment variables within the
+- Create a langsmith account to inspect logs of the application, then import the following environment variables within the
 notebook.
 
 ```
@@ -70,7 +70,7 @@ the name of the created index
 ## Usage
 
 - Now the context that will be given is from a webpage and the RAG will be able to answer questions from the content of this page.
-This scripts indexes the data, split it into the documents and save them into pynecone. 
+This script indexes the data, split it into the documents and save them into pynecone. 
 
 ```
 import bs4
